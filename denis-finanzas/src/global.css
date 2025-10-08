@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/pagination";
+@tailwind utilities;
+:root {
+  --mainBackground: 249, 250, 249;        /* F9FAF9 */
+  --secondaryBackground: 230, 245, 237;   /* E6F5ED */
+  --tertiaryBackground: 27, 31, 29;       /* 1B1F1D */
+  --mainText: 17, 17, 17;                 /* 111111 */
+  --secondaryText: 79, 79, 79;            /* 4F4F4F */
+  --tertiaryText: 224, 242, 233;          /* E0F2E9 */
+  --branding: 39, 174, 96;                /* 27AE60 */
+  --secondaryBranding: 33, 150, 83;       /* 219653 */
+  --tertiaryBranding: 111, 207, 151;      /* 6FCF97 */
+  --success: 0, 201, 163;                 /* 00C9A3 */
+  --error: 255, 109, 125;                 /* FF6D7D */
+  --foreground: 237, 237, 237;            /* EDEDED */
+}
+
+.dark {
+  --mainBackground: 18, 20, 18;           /* 121412 */
+  --secondaryBackground: 27, 31, 29;      /* 1B1F1D */
+  --tertiaryBackground: 12, 14, 12;       /* 0C0E0C */
+  --mainText: 237, 237, 237;              /* EDEDED */
+  --secondaryText: 176, 184, 180;         /* B0B8B4 */
+  --tertiaryText: 111, 207, 151;          /* 6FCF97 */
+  --branding: 39, 174, 96;                /* 27AE60 */
+  --secondaryBranding: 33, 150, 83;       /* 219653 */
+  --tertiaryBranding: 111, 207, 151;      /* 6FCF97 */
+  --success: 0, 201, 163;                 /* 00C9A3 */
+  --error: 255, 109, 125;                 /* FF6D7D */
+  --foreground: 30, 30, 30;               /* 1E1E1E */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+    font-family: 'Inter';
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oxanium';
+    font-weight: bold;
+}

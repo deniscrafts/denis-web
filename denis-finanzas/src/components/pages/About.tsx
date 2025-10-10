@@ -35,7 +35,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="mt-50 pt-40 w-full flex flex-col items-center justify-center scroll-mt-0 py-40"
+  className="mt-[50px] pt-[40px] w-full flex flex-col items-center justify-center scroll-mt-0 py-[40px]"
     >
       {/* Logo */}
       <motion.div
@@ -46,7 +46,7 @@ const About = () => {
         className="w-full flex items-center justify-center mb-20"
       >
         <img
-          className="sm:w-1/10 w-1/2 hover:scale-105 transition-transform duration-500"
+          className="sm:w-[10%] w-1/2 hover:scale-105 transition-transform duration-500 max-w-[120px]"
           src="/enciclopedia_cerrada.webp"
           alt="La enciclopedia"
         />
@@ -74,7 +74,7 @@ const About = () => {
           hidden: {},
           visible: { transition: { staggerChildren: 0.2 } }
         }}
-        className="hidden sm:grid grid-cols-2 justify-items-center w-9/10 gap-6"
+  className="hidden sm:grid grid-cols-2 justify-items-center w-[90%] gap-6"
       >
         {cards.map((card, i) => (
           <motion.div
@@ -100,14 +100,15 @@ const About = () => {
       </motion.div>
 
       {/* Swiper para móvil */}
-      <div className="sm:hidden w-full max-w-md">
-        <Swiper
-          modules={[Pagination]}
-          spaceBetween={30}
-          slidesPerView={1}
-          pagination={{ clickable: true }}
-          className="w-full px-4"
-        >
+      <div className="sm:hidden w-full max-w-md overflow-hidden">
+  <Swiper
+    modules={[Pagination]}
+    spaceBetween={30}
+    slidesPerView={1}
+    pagination={{ clickable: true }}
+    className="w-full"
+  >
+
           {cards.map((card, i) => (
             <SwiperSlide key={i}>
               <motion.div

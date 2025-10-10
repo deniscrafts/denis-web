@@ -30,19 +30,19 @@ const Coaching = () => {
     <section id="coaching" className="pb-20">
 
       {/* Intro */}
-      <motion.div
+    <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
-        className="w-full pt-50 pb-0 flex flex-col sm:flex-row items-center justify-center px-10 sm:px-30 sm:gap-10"
+  className="w-full max-w-full pt-[50px] pb-0 flex flex-col sm:flex-row items-center justify-center px-4 sm:px-6 md:px-[30px] sm:px-[30px] sm:gap-10"
       >
         {/* Columna 1 */}
         <motion.div
           initial={{ x: -50, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="w-full sm:w-1/2 flex flex-col items-start justify-center text-left mb-5 sm:mb-20"
+          className="w-full sm:w-1/2 max-w-full flex flex-col items-start justify-center text-left mb-5 sm:mb-20"
         >
           <h1 className="text-5xl text-[rgba(var(--branding))] font-bold mb-6 text-center sm:text-start">
             Asesorías personalizadas
@@ -64,7 +64,7 @@ const Coaching = () => {
           initial={{ x: 50, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="w-full sm:w-1/2 flex flex-col items-start justify-center text-left mb-5 sm:mb-20"
+          className="w-full sm:w-1/2 max-w-full flex flex-col items-start justify-center text-left mb-5 sm:mb-20"
         >
           <h2 className="text-3xl text-[rgba(var(--branding))] font-semibold mb-6 text-center sm:text-start w-full">
             ¿Sobre qué?
@@ -87,7 +87,7 @@ const Coaching = () => {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: i * 0.2 }}
-            className="sm:w-1/2 w-full flex justify-center items-center mb-10 flex-col px-10 sm:px-30"
+            className="sm:w-1/2 w-full max-w-full flex justify-center items-center mb-10 flex-col px-4 sm:px-6 md:px-[30px] sm:px-[30px]"
           >
             <h2 className="text-3xl text-[rgba(var(--branding))] font-semibold mb-6 text-center w-full">{sec.titulo}</h2>
             <p className="text-lg text-[rgba(var(--secondaryText))] mb-4 text-center w-full">
@@ -98,20 +98,17 @@ const Coaching = () => {
       </div>
 
       {/* Call to action */}
-      <motion.div
+    <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
-        className="w-full flex justify-center items-center mb-20 flex-col px-10 sm:px-30"
+  className="w-full max-w-full flex justify-center items-center mb-20 flex-col px-4 sm:px-6 md:px-[30px] sm:px-[30px]"
       >
-        <h2 className="text-3xl text-[rgba(var(--branding))] font-semibold mb-6 text-center w-full">
-          ¿Quieres reservar una sesión?
-        </h2>
-        <p className="text-lg text-[rgba(var(--secondaryText))] mb-4 text-center w-full px-10 sm:px-30">
-          Contactame a través de un ticket de discord en el canal de bienvenida mencionandome.
-          <br />
-          La tarifa es de 50 USD por hora.
-        </p>
+        <div className="px-4 sm:px-6 md:px-[30px] py-5 bg-[rgba(var(--branding))] rounded-full flex justify-center
+        items-center shadow-lg hover:shadow-xl transition-shadow cursor-pointer hover:scale-105 transition-transform 
+        duration-300" onClick={() => window.open("https://discord.gg/7V7BGwRXKn", "_blank")}>
+          <h2 className="text-3xl text-[rgba(var(--mainText))] font-semibold">¡Reserva ya!</h2>
+        </div>
 
         
       </motion.div>

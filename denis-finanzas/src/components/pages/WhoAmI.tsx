@@ -9,7 +9,7 @@ const WhoAmI = () => {
       id="whoami"
       className="pt-10 md:pt-40 md:pb-10 flex justify-center items-center text-center px-4 pb-5"
     >
-      <div className="grid grid-cols-1 md:grid-cols-2 w-full md:w-9/10 gap-8 md:gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 w-full md:w-[90%] gap-8 md:gap-12">
         
         {/* Texto */}
         <motion.div

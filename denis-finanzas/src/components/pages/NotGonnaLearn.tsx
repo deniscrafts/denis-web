@@ -77,9 +77,9 @@ const NotGonnaLearn = () => {
                         </div>
                         <p className="text-[rgba(var(--secondaryText))] mt-4 text-center text-sm lg:text-base">
                             No vas a aprender a apostar por subidas rápidas sin fundamentos.
-                            La especulación puede dar ganancias momentáneas, pero rara vez construye resultados sostenibles.
+                            La especulación ciega es una trampa que te hará perder el tiempo y el dinero.
                             Aquí trabajamos con <span className="font-bold text-[rgba(var(--branding))]">estrategias sólidas</span>,
-                            no con <span className="font-bold text-[rgba(var(--error))]">loterías</span>.
+                            no con <span className="font-bold text-[rgba(var(--error))]">loterias</span>.
                         </p>
                     </motion.div>
 

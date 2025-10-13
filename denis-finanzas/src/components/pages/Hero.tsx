@@ -31,7 +31,7 @@ const Hero = () => {
             transition={{ duration: 0.9, delay: 0.2 }}
             className="text-[rgba(var(--secondaryText))] text-lg sm:text-xl md:text-2xl mt-4 sm:text-start text-center"
           >
-            DeFi con <span className="text-[rgba(var(--branding))] font-bold">fundamentos </span> 
+            DeFi con <span className="text-[rgba(var(--branding))] font-bold">fundamento </span> 
              - Rendimiento sostenible, sin <span className="text-[rgba(var(--error))] ">especulación</span>.
           </motion.p>
 

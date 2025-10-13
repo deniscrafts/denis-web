@@ -90,7 +90,7 @@ const NotGonnaLearn = () => {
                     >
                         <div className="w-full flex flex-row justify-between items-center px-2">
                             <h3 className="text-2xl lg:text-3xl text-[rgba(var(--branding))] font-semibold text-center flex-1">
-                                Memes
+                                Fomo
                             </h3>
                             <div className="ml-4 text-3xl lg:text-4xl">
                                 <FaFaceLaughSquint className="text-[rgba(var(--secondaryBranding))]" />

@@ -14,8 +14,8 @@ const temas = [
 
 const secciones = [
   {
-    titulo: "Recibo Feedback y mejoro",
-    texto: <>Por favor, deja una reseña en <span className="font-bold text-[rgba(var(--branding))]">Denis Feedback</span> tras las <span className="font-bold text-[rgba(var(--branding))]">clases</span> para compartir tu <span className="font-bold text-[rgba(var(--branding))]">experiencia</span> y ayudar a otros a elegir.</>
+    titulo: "¿Qué opina la gente?",
+    texto: <>Puedes leer tu mismo las reseñas en <span className="font-bold text-[rgba(var(--branding))]">el servidor</span> para leer las <span className="font-bold text-[rgba(var(--branding))]">opiniones</span> de la gente que ya está <span className="font-bold text-[rgba(var(--branding))]">dentro</span>.</>
   },
   {
     titulo: "Mi experiencia",

@@ -53,7 +53,7 @@ const WhoAmI = () => {
             {[
               "Llevo +4 años en DeFi y he cometido todos los errores que una persona puede cometer en este sector.",
               "He presenciado el Bear Market, el depeg de USDC, la caída de FTX y el crash de Luna",
-              "Ignoro completamente la especulación vacía, esta es la razón por la que elijo las Finanzas Descentralizadas"
+              "Busco ineficiencias del mercado, no me dejo llevar por el fomo y pongo mi foco en el largo plazo"
             ].map((text, i) => (
               <motion.p
                 key={i}

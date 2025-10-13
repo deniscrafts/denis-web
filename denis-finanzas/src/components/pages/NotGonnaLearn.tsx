@@ -97,7 +97,7 @@ const NotGonnaLearn = () => {
                             </div>
                         </div>
                         <p className="text-[rgba(var(--secondaryText))] mt-4 text-center text-sm lg:text-base">
-                            No vas a aprender a perseguir memecoins ni <span className="font-bold text-[rgba(var(--error))]">promesas vacías </span> 
+                            No vas a aprender a perseguir a las masas ni <span className="font-bold text-[rgba(var(--error))]">promesas vacías </span> 
                             de ganancias rápidas. Aquí no dependemos de la suerte: 
                             usamos <span className="font-bold text-[rgba(var(--branding))]">análisis y números reales</span>.
                         </p>

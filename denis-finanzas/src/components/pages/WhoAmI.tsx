@@ -51,9 +51,9 @@ const WhoAmI = () => {
             className="w-full space-y-4 text-start"
           >
             {[
-              "Llevo +4 años en DeFi, he cometido todos los errores que una persona puede cometer en este sector.",
-              "He presenciado el Bear Market, el depeg de USDC, la caída de FTX y el crash de LUNA",
-              "Ignoro completamente la especulación vacía, por eso elijo las Finanzas Descentralizadas"
+              "Llevo +4 años en DeFi y he cometido todos los errores que una persona puede cometer en este sector.",
+              "He presenciado el Bear Market, el depeg de USDC, la caída de FTX y el crash de Luna",
+              "Ignoro completamente la especulación vacía, esta es la razón por la que elijo las Finanzas Descentralizadas"
             ].map((text, i) => (
               <motion.p
                 key={i}

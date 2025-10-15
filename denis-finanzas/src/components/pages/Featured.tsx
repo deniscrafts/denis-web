@@ -18,7 +18,7 @@ const Featured = () => {
     },
     {
       title: "Estrategias de Monedas Estables",
-      src: "https://www.youtube.com/watch?v=yIYKnqW8BEA&t=1389s",
+      src: "https://www.youtube.com/embed/yIYKnqW8BEA?si=KOgyILWintAj6QS3",
       description:
         "Recopilación muy completa de estrategias con Stablecoins para generar Rendimiento con Bajo, Medio y Alto riesgo",
     },

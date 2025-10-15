@@ -17,10 +17,10 @@ const Featured = () => {
         "Aprende cómo generar ingresos pasivos con estrategias de Yield Farming en el ecosistema DeFi.",
     },
     {
-      title: "10 Mejores Airdrops de Perpetuos",
-      src: "https://www.youtube.com/embed/IX2rf6v21qg",
+      title: "Estrategias de Monedas Estables",
+      src: "https://www.youtube.com/watch?v=yIYKnqW8BEA&t=1389s",
       description:
-        "Descubre los mejores proyectos de Perpetuos que están repartiendo airdrops ahora mismo.",
+        "Recopilación muy completa de estrategias con Stablecoins para generar Rendimiento con Bajo, Medio y Alto riesgo",
     },
     {
       title: "Gana un 30% APY en Jupiter",

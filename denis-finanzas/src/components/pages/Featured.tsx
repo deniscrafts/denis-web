@@ -17,16 +17,16 @@ const Featured = () => {
         "Aprende cómo generar ingresos pasivos con estrategias de Yield Farming en el ecosistema DeFi.",
     },
     {
-      title: "Estrategias de Monedas Estables",
-      src: "https://www.youtube.com/embed/yIYKnqW8BEA?si=KOgyILWintAj6QS3",
+      title: "Aprovecha los Prestamos y la Deuda",
+      src: "https://www.youtube.com/embed/4jd0rj6GTJc",
       description:
-        "Recopilación muy completa de estrategias con Stablecoins para generar Rendimiento con Bajo, Medio y Alto riesgo",
+        "Todo sobre el funcionamiento de la deuda y estrategias de Lending aplicables en DeFi",
     },
     {
-      title: "Gana un 30% APY en Jupiter",
-      src: "https://www.youtube.com/embed/ZyWhCxlkGtA",
+      title: "Cómo Farmear Polymarket Desde Cero",
+      src: "https://www.youtube.com/embed/EMAIxxUpXAI",
       description:
-        "Estrategia avanzada para conseguir un 30% APY utilizando pools y swaps en Jupiter Exchange.",
+        "Tutorial completo para aprender el funcionamiento de los Prediction Markets",
     },
   ];
 
